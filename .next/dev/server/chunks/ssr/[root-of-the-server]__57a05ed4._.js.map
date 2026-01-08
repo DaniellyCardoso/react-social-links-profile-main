@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///D:/Desktop/projects-curses/estudando%20react/react-social-links-profile-main/app/page.tsx"],"sourcesContent":["export default function Home() {\n  return (\n    <div>\n      <p>Jessica Randall</p>\n      <p>London, United Kingdom</p>\n      <p>\"Front-end developer and avid reader.\"</p>\n      <p>GitHub</p>\n      <p>Frontend Mentor</p>\n      <p>LinkedIn</p>\n      <p>Twitter</p>\n      <p>Instagram</p>\n\n      <div className=\"attribution\">\n        Challenge by{\" \"}\n        <a href=\"https://www.frontendmentor.io?ref=challenge\" target=\"_blank\">\n          Frontend Mentor\n        </a>\n        . Coded by <a href=\"#\">Danielly Cardoso</a>.\n      </div>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,uUAAC;;0BACC,uUAAC;0BAAE;;;;;;0BACH,uUAAC;0BAAE;;;;;;0BACH,uUAAC;0BAAE;;;;;;0BACH,uUAAC;0BAAE;;;;;;0BACH,uUAAC;0BAAE;;;;;;0BACH,uUAAC;0BAAE;;;;;;0BACH,uUAAC;0BAAE;;;;;;0BACH,uUAAC;0BAAE;;;;;;0BAEH,uUAAC;gBAAI,WAAU;;oBAAc;oBACd;kCACb,uUAAC;wBAAE,MAAK;wBAA8C,QAAO;kCAAS;;;;;;oBAElE;kCACO,uUAAC;wBAAE,MAAK;kCAAI;;;;;;oBAAoB;;;;;;;;;;;;;AAInD"}}]
+}
