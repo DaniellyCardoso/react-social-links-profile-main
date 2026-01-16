@@ -1,5 +1,5 @@
-"use client";
-import { Button } from "@/src/components/Button";
+
+import { CustomButton } from "@/src/components/Button";
 
 interface Informs {
   id: number;
@@ -24,16 +24,16 @@ export function Lista() {
       {informs.map((item: any, index: any) => {
         if (item.type === "button") {
           return (
-            <Button key={item.id} content={item.content} action={() => item.action && window.open(item.action, "_blank")} />
+            <CustomButton key={item.id} content={item.content} action={() => item.action && window.open(item.action, "_blank")} />
           );
         }
         return (
-          <p
+          <div
             key={item.id}
             className="border border-emerald-500 p-3 bg-emerald-50 rounded"
           >
             {item.content}
-          </p>
+          </div>
         );
       })}
     </div>

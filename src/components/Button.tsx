@@ -1,11 +1,11 @@
-"use client";
+
 
 interface Props {
   content: string;
   action?: () => void;
 }
 
-export function Button({ content, action }: Props) {
+export function CustomButton({ content, action }: Props) {
   return (
     <button
       onClick={action}

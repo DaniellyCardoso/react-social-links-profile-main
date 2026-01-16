@@ -1,3 +1,4 @@
+'use client';
 import Image from "next/image";
 import profileImage from "@/src/assets/images/avatar-jessica.jpeg";
 import { Lista } from "@/src/components/Lista";
@@ -18,7 +19,7 @@ export default function Home() {
                 alt="Imagen de perfil"
                 className="rounded-full"
               />
-              <p>Jessica Randall</p>
+              <div>Jessica Randall</div>
             </div>
             <Lista />
           </div>
