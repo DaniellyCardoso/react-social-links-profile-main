@@ -7,10 +7,8 @@ interface Props {
 
 export function CustomButton({ content, action }: Props) {
   return (
-    <button
-      onClick={action}
-      className="border border-emerald-500 p-3 bg-emerald-50 rounded hover:bg-emerald-100 cursor-pointer"
-    >
+    <button onClick={action}
+      className="border border-black-500 p-3 bg-black-50 rounded hover:bg-red-100 cursor-pointer">
       {content}
     </button>
   );

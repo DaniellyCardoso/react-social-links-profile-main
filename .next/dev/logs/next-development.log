@@ -1,19 +1,95 @@
-[00:00:02.383] Server  LOG     ✓ Ready in 1705ms
-[00:00:08.316] Browser WARN    Image with src "/_next/static/media/avatar-jessica.00927701.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:23.985] Server  LOG     ✓ Ready in 19.8s
+[00:00:27.184] Server  LOG     ○ Compiling / ...
+[00:00:41.680] Browser WARN    Image with src "/_next/static/media/avatar-jessica.00927701.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:12.105] Browser WARN    Image with src "/_next/static/media/avatar-jessica.00927701.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:01:48.301] Server  LOG     ✓ Compiled in 6s
+[00:02:32.558] Server  LOG     ✓ Compiled in 74ms
+[00:02:46.257] Server  LOG     ✓ Compiled in 33ms
+[00:02:57.611] Server  LOG     ✓ Compiled in 121ms
+[00:03:09.436] Server  LOG     ✓ Compiled in 60ms
+[00:03:20.019] Server  LOG     ✓ Compiled in 36ms
+[00:03:24.504] Server  LOG     ✓ Compiled in 81ms
+[00:03:56.652] Server  LOG     ✓ Compiled in 1198ms
+[00:04:37.984] Server  LOG     ✓ Compiled in 340ms
+[00:04:43.508] Server  LOG     ✓ Compiled in 41ms
+[00:04:52.275] Server  LOG     ✓ Compiled in 99ms
+[00:04:54.669] Server  LOG     ✓ Compiled in 29ms
+[00:05:07.376] Server  LOG     ✓ Compiled in 28ms
+[00:05:14.331] Server  LOG     ✓ Compiled in 28ms
+[00:06:59.689] Server  LOG     ✓ Compiled in 27ms
+[00:07:35.446] Server  LOG     ✓ Compiled in 29ms
+[00:07:47.354] Server  LOG     ✓ Compiled in 27ms
+[00:09:59.190] Server  LOG     ✓ Compiled in 303ms
+[00:12:20.300] Server  LOG     ✓ Compiled in 146ms
+[00:12:45.882] Server  LOG     ✓ Compiled in 870ms
+[00:14:03.809] Server  LOG     ✓ Compiled in 604ms
+[00:14:03.921] Browser ERROR   ./projects-curses/estudando react/react-social-links-profile-main/src/components/Lista.tsx:23:6
+Parsing ecmascript source code failed
+  21 |         <CustomButton key={item.id} content={item.content} action={() => item.action && window.open(item.action, "_blank")} />
+  22 |     
+> 23 |     </div>
+     |      ^^^^^
+  24 |   );
+  25 | }
+  26 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./projects-curses/estudando react/react-social-links-profile-main/src/components/Lista.tsx [Client Component Browser]
+    ./projects-curses/estudando react/react-social-links-profile-main/app/page.tsx [Client Component Browser]
+    ./projects-curses/estudando react/react-social-links-profile-main/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./projects-curses/estudando react/react-social-links-profile-main/src/components/Lista.tsx [Client Component SSR]
+    ./projects-curses/estudando react/react-social-links-profile-main/app/page.tsx [Client Component SSR]
+    ./projects-curses/estudando react/react-social-links-profile-main/app/page.tsx [Server Component]
+[00:14:32.020] Browser ERROR   uncaughtError: ReferenceError: item is not defined
+[00:15:36.672] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:15:36.697] Server  LOG     ✓ Compiled in 28ms
+[00:15:36.926] Server  ERROR   ⨯ ReferenceError: item is not defined
+[00:15:37.300] Browser ERROR   uncaughtError: ReferenceError: item is not defined
+[00:16:39.266] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:16:39.278] Server  LOG     ✓ Compiled in 28ms
+[00:16:39.839] Browser WARN    Image with src "/_next/static/media/avatar-jessica.00927701.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:59.601] Browser WARN    Image with src "/_next/static/media/avatar-jessica.00927701.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:16:50.159] Server  LOG     ✓ Compiled in 33ms
+[00:17:08.591] Server  LOG     ✓ Compiled in 29ms
+[00:23:25.969] Server  LOG     ✓ Compiled in 29ms
+[00:25:46.261] Server  LOG     ✓ Compiled in 117ms
+[00:25:47.021] Browser ERROR   uncaughtError: TypeError: item is not a function
+[00:30:24.346] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:30:24.375] Server  LOG     ✓ Compiled in 33ms
+[00:30:24.695] Server  ERROR   ⨯ TypeError: object is not a function
+[00:30:25.737] Browser ERROR   uncaughtError: TypeError: item is not a function
+[00:31:01.300] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:31:01.313] Server  LOG     ✓ Compiled in 29ms
+[00:32:18.858] Server  LOG     ✓ Compiled in 32ms
+[00:32:37.676] Server  LOG     ✓ Compiled in 28ms
+[00:34:53.953] Server  LOG     ✓ Compiled in 141ms
+[00:34:54.993] Browser ERROR   ./projects-curses/estudando react/react-social-links-profile-main/src/components/Lista.tsx:17:32
+Parsing ecmascript source code failed
+  15 | ];
+  16 |
+> 17 | const listRender = informs.map(())
+     |                                ^^
+  18 |
+  19 |
+  20 | export function Lista(item: any, id: number) {
+
+Parenthesized expression cannot be empty
+
+Import traces:
+  Client Component Browser:
+    ./projects-curses/estudando react/react-social-links-profile-main/src/components/Lista.tsx [Client Component Browser]
+    ./projects-curses/estudando react/react-social-links-profile-main/app/page.tsx [Client Component Browser]
+    ./projects-curses/estudando react/react-social-links-profile-main/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./projects-curses/estudando react/react-social-links-profile-main/src/components/Lista.tsx [Client Component SSR]
+    ./projects-curses/estudando react/react-social-links-profile-main/app/page.tsx [Client Component SSR]
+    ./projects-curses/estudando react/react-social-links-profile-main/app/page.tsx [Server Component]
+[00:39:26.691] Server  LOG     ✓ Compiled in 29ms
+[00:40:13.412] Browser WARN    Image with src "/_next/static/media/avatar-jessica.00927701.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:06:35.799] Server  LOG     ✓ Compiled in 508ms
-[00:06:38.173] Server  LOG     ✓ Compiled in 45ms
-[00:06:50.056] Browser WARN    Image with src "/_next/static/media/avatar-jessica.00927701.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:07:53.155] Server  LOG     ✓ Compiled in 33ms
-[00:08:46.686] Server  LOG     ✓ Compiled in 91ms
-[00:08:47.378] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
-[00:08:47.378] Browser ERROR   Image is missing required "src" property: <img>
-[00:08:47.378] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:11:22.654] Server  LOG     ✓ Compiled in 33ms
-[00:11:31.508] Server  LOG     ✓ Compiled in 34ms
-[00:12:58.851] Server  LOG     ✓ Compiled in 28ms

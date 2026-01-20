@@ -116,6 +116,7 @@
 
 @layer theme {
   :root, :host {
+    --color-red-100: #ffe2e2;
     --color-emerald-50: #ecfdf5;
     --color-emerald-100: #d0fae5;
     --color-emerald-500: #00bb7f;
@@ -131,6 +132,7 @@
 
   @supports (color: lab(0% 0 0)) {
     :root, :host {
+      --color-red-100: lab(92.243% 10.2865 3.83865);
       --color-emerald-50: lab(97.8462% -6.94963 1.85487);
       --color-emerald-100: lab(94.9004% -17.0769 5.63836);
       --color-emerald-500: lab(66.9756% -58.27 19.5419);
@@ -505,6 +507,12 @@
   @media (hover: hover) {
     .hover\:bg-emerald-100:hover {
       background-color: var(--color-emerald-100);
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:bg-red-100:hover {
+      background-color: var(--color-red-100);
     }
   }
 

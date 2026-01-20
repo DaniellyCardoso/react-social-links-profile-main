@@ -1,41 +1,29 @@
-
 import { CustomButton } from "@/src/components/Button";
 
 interface Informs {
   id: number;
   content: string;
-  type: "text" | "button";
   action?: string;
 }
 
 const informs: Informs[] = [
-  { id: 1, content: "London, United Kingdom", type: "text" },
-  { id: 2, content: "Front-end developer and avid reader.", type: "text" },
-  { id: 3, content: "GitHub", type: "button", action: "https://github.com"  },
-  { id: 4, content: "Frontend Mentor", type: "button", action: "https://www.frontendmentor.io",},
-  { id: 5, content: "LinkedIn", type: "button", action: "https://linkedin.com" },
-  { id: 6, content: "Twitter", type: "button", action: "https://x.com" },
-  { id: 7, content: "Instagram", type: "button", action: "https://instagram.com"}
+  { id: 1, content: "GitHub", action: "https://github.com" },
+  { id: 2, content: "Frontend Mentor", action: "https://www.frontendmentor.io" },
+  { id: 3, content: "LinkedIn", action: "https://linkedin.com" },
+  { id: 4, content: "Twitter", action: "https://x.com" },
+  { id: 5, content: "Instagram", action: "https://instagram.com" }
 ];
 
-export function Lista() {
+export function Lista(item: any, id: number) {
   return (
     <div className="grid grid-cols-1 gap-4">
-      {informs.map((item: any, index: any) => {
-        if (item.type === "button") {
-          return (
-            <CustomButton key={item.id} content={item.content} action={() => item.action && window.open(item.action, "_blank")} />
-          );
-        }
-        return (
-          <div
-            key={item.id}
-            className="border border-emerald-500 p-3 bg-emerald-50 rounded"
-          >
-            {item.content}
-          </div>
-        );
-      })}
+      {informs.map((item) => (
+        <CustomButton
+          key={item.id}
+          content={item.content}
+          action={() => item.action && window.open(item.action, "_blank")}
+        />
+      ))}
     </div>
   );
 }
