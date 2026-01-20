@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  --grey700: hsl(0, 0%, 20%);
+  --grey800: hsl(0, 0%, 12%);
+  --grey900: hsl(0, 0%, 8%);
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+   font-size: 14px;
+}
+
+body {
+  background: var(--grey900);
+  color: var(--white);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
