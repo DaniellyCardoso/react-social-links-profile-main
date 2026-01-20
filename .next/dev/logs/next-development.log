@@ -93,3 +93,374 @@ Import traces:
 [00:39:26.691] Server  LOG     ✓ Compiled in 29ms
 [00:40:13.412] Browser WARN    Image with src "/_next/static/media/avatar-jessica.00927701.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:15:56.728] Server  LOG     ✓ Compiled in 53ms
+[01:16:30.521] Server  LOG     ✓ Compiled in 553ms
+[01:16:48.085] Server  LOG     ✓ Compiled in 28ms
+[01:17:08.123] Server  LOG     ✓ Compiled in 27ms
+[01:17:16.189] Server  LOG     ✓ Compiled in 28ms
+[01:17:18.521] Server  LOG     ✓ Compiled in 49ms
+[01:17:27.058] Server  LOG     ✓ Compiled in 1616ms
+[01:17:27.167] Browser ERROR   ./projects-curses/estudando react/react-social-links-profile-main/app/page.tsx:24:37
+Parsing ecmascript source code failed
+  22 |               />
+  23 |             </div>
+> 24 |             <h6>Jessica Randall</h1>
+     |                                     ^
+> 25 |             <Lista />
+     | ^^^^^^^^^^^^^
+  26 |           </div>
+  27 |         </div>
+  28 |
+
+Expected '</', got 'jsx text (
+            )'
+
+Import traces:
+  Client Component Browser:
+    ./projects-curses/estudando react/react-social-links-profile-main/app/page.tsx [Client Component Browser]
+    ./projects-curses/estudando react/react-social-links-profile-main/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./projects-curses/estudando react/react-social-links-profile-main/app/page.tsx [Client Component SSR]
+    ./projects-curses/estudando react/react-social-links-profile-main/app/page.tsx [Server Component]
+[01:19:20.567] Server  LOG     ✓ Compiled in 167ms
+[01:19:29.133] Server  LOG     ✓ Compiled in 32ms
+[01:19:47.515] Server  LOG     ✓ Compiled in 27ms
+[01:19:49.462] Server  LOG     ✓ Compiled in 28ms
+[01:20:19.878] Server  LOG     ✓ Compiled in 35ms
+[01:20:28.098] Server  LOG     ✓ Compiled in 27ms
+[01:21:22.407] Server  LOG     ✓ Compiled in 143ms
+[01:21:48.941] Server  LOG     ✓ Compiled in 31ms
+[01:22:11.468] Server  LOG     ✓ Compiled in 27ms
+[01:22:24.161] Server  LOG     ✓ Compiled in 27ms
+[01:22:34.222] Server  LOG     ✓ Compiled in 134ms
+[01:23:03.004] Server  LOG     ✓ Compiled in 27ms
+[01:23:12.629] Server  LOG     ✓ Compiled in 27ms
+[01:23:23.523] Server  LOG     ✓ Compiled in 49ms
+[01:23:26.532] Server  LOG     ✓ Compiled in 36ms
+[01:24:03.832] Server  LOG     ✓ Compiled in 38ms
+[01:24:07.883] Server  LOG     ✓ Compiled in 35ms
+[01:24:14.378] Server  LOG     ✓ Compiled in 36ms
+[01:24:26.864] Server  LOG     ✓ Compiled in 33ms
+[01:24:32.395] Server  LOG     ✓ Compiled in 32ms
+[01:24:45.269] Server  LOG     ✓ Compiled in 32ms
+[01:25:01.166] Server  LOG     ✓ Compiled in 27ms
+[01:25:33.985] Server  LOG     ✓ Compiled in 27ms
+[01:25:42.896] Server  LOG     ✓ Compiled in 32ms
+[01:25:49.788] Server  LOG     ✓ Compiled in 27ms
+[01:28:10.687] Server  LOG     ✓ Compiled in 193ms
+[01:28:45.497] Server  LOG     ✓ Compiled in 27ms
+[01:29:26.223] Server  LOG     ✓ Compiled in 35ms
+[01:29:32.428] Server  LOG     ✓ Compiled in 32ms
+[01:29:40.093] Server  LOG     ✓ Compiled in 28ms
+[01:30:42.887] Server  LOG     ✓ Compiled in 33ms
+[01:30:56.336] Server  LOG     ✓ Compiled in 31ms
+[01:31:03.302] Server  LOG     ✓ Compiled in 29ms
+[01:31:28.322] Server  LOG     ✓ Compiled in 27ms
+[01:32:32.249] Server  LOG     ✓ Compiled in 30ms
+[01:33:10.246] Server  LOG     ✓ Compiled in 46ms
+[01:33:16.685] Server  LOG     ✓ Compiled in 34ms
+[01:34:32.843] Server  LOG     ✓ Compiled in 34ms
+[01:34:38.929] Server  LOG     ✓ Compiled in 27ms
+[01:34:51.283] Server  LOG     ✓ Compiled in 38ms
+[01:35:16.887] Server  LOG     ✓ Compiled in 28ms
+[01:52:29.309] Server  LOG     ✓ Compiled in 63ms
+[01:53:07.162] Server  LOG     ✓ Compiled in 33ms
+[01:53:12.869] Server  LOG     ✓ Compiled in 30ms
+[01:53:44.084] Server  LOG     ✓ Compiled in 41ms
+[01:54:07.697] Server  LOG     ✓ Compiled in 126ms
+[01:54:35.075] Server  LOG     ✓ Compiled in 44ms
+[01:54:54.362] Server  LOG     ✓ Compiled in 28ms
+[01:54:58.145] Server  LOG     ✓ Compiled in 28ms
+[01:55:25.665] Server  LOG     ✓ Compiled in 28ms
+[01:55:46.517] Server  LOG     ✓ Compiled in 29ms
+[01:56:22.453] Server  LOG     ✓ Compiled in 36ms
+[01:56:39.085] Server  LOG     ✓ Compiled in 29ms
+[01:56:53.490] Server  LOG     ✓ Compiled in 29ms
+[01:57:51.943] Server  LOG     ✓ Compiled in 29ms
+[01:57:56.982] Server  LOG     ✓ Compiled in 29ms
+[01:58:41.817] Server  LOG     ✓ Compiled in 37ms
+[02:00:04.867] Server  LOG     ✓ Compiled in 29ms
+[02:00:10.069] Server  LOG     ✓ Compiled in 30ms
+[02:00:22.812] Server  LOG     ✓ Compiled in 28ms
+[02:00:27.152] Server  LOG     ✓ Compiled in 28ms
+[02:00:42.468] Server  LOG     ✓ Compiled in 37ms
+[02:00:59.792] Server  LOG     ✓ Compiled in 46ms
+[02:01:06.346] Server  LOG     ✓ Compiled in 35ms
+[02:01:09.833] Server  LOG     ✓ Compiled in 29ms
+[02:03:32.299] Server  LOG     ✓ Compiled in 31ms
+[02:03:42.871] Server  LOG     ✓ Compiled in 38ms
+[02:04:03.670] Server  LOG     ✓ Compiled in 30ms
+[02:04:11.544] Server  LOG     ✓ Compiled in 39ms
+[03:20:20.646] Server  LOG     ✓ Compiled in 73ms
+[03:20:25.968] Server  LOG     ✓ Compiled in 43ms
+[03:20:35.175] Server  LOG     ✓ Compiled in 72ms
+[03:21:39.526] Server  LOG     ✓ Compiled in 72ms
+[03:21:59.464] Server  LOG     ✓ Compiled in 43ms
+[03:22:02.246] Server  LOG     ✓ Compiled in 54ms
+[03:22:07.749] Server  LOG     ✓ Compiled in 53ms
+[03:28:16.568] Server  LOG     ✓ Compiled in 125ms
+[03:28:52.093] Server  LOG     ✓ Compiled in 76ms
+[03:30:17.799] Server  LOG     ✓ Compiled in 125ms
+[03:30:55.415] Server  LOG     ✓ Compiled in 72ms
+[03:31:06.183] Server  LOG     ✓ Compiled in 32ms
+[03:31:29.970] Server  LOG     ✓ Compiled in 142ms
+[03:31:38.312] Server  LOG     ✓ Compiled in 102ms
+[03:36:08.273] Server  LOG     ✓ Compiled in 49ms
+[03:36:30.489] Server  LOG     ✓ Compiled in 113ms
+[03:36:45.420] Server  LOG     ✓ Compiled in 129ms
+[03:37:49.217] Server  LOG     ✓ Compiled in 29ms
+[03:37:51.933] Server  LOG     ✓ Compiled in 27ms
+[03:37:56.151] Server  LOG     ✓ Compiled in 32ms
+[03:38:16.255] Server  LOG     ✓ Compiled in 31ms
+[03:38:16.361] Browser ERROR   ./projects-curses/estudando react/react-social-links-profile-main/app/page.tsx:11:66
+Parsing ecmascript source code failed
+   9 |       <div className="mx-auto max-w-sm items-center gap-x-4 rounded-xl p-8  
+  10 |       outline outline-black/5>
+> 11 |         <div className="flex flex-col items-center justify-center">
+     |                                                                  ^^
+  12 |           <div className="flex flex-col gap-5 pb-8 ">
+  13 |             <Image
+  14 |               src={profileImage}
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./projects-curses/estudando react/react-social-links-profile-main/app/page.tsx [Client Component Browser]
+    ./projects-curses/estudando react/react-social-links-profile-main/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./projects-curses/estudando react/react-social-links-profile-main/app/page.tsx [Client Component SSR]
+    ./projects-curses/estudando react/react-social-links-profile-main/app/page.tsx [Server Component]
+[03:38:37.564] Server  LOG     ✓ Compiled in 26ms
+[03:38:54.971] Server  LOG     ✓ Compiled in 25ms
+[03:39:00.668] Server  LOG     ✓ Compiled in 27ms
+[03:39:07.558] Server  LOG     ✓ Compiled in 26ms
+[03:39:26.301] Server  LOG     ✓ Compiled in 29ms
+[03:40:06.815] Server  LOG     ✓ Compiled in 39ms
+[03:40:51.433] Server  LOG     ✓ Compiled in 35ms
+[03:41:04.829] Server  LOG     ✓ Compiled in 31ms
+[03:41:07.633] Server  LOG     ✓ Compiled in 25ms
+[03:41:08.409] Server  LOG     ✓ Compiled in 25ms
+[03:41:43.753] Server  LOG     ✓ Compiled in 30ms
+[03:43:37.671] Server  LOG     ✓ Compiled in 59ms
+[03:45:13.630] Server  LOG     ✓ Compiled in 29ms
+[03:46:01.168] Server  LOG     ✓ Compiled in 28ms
+[03:46:07.323] Server  LOG     ✓ Compiled in 25ms
+[03:46:09.568] Server  LOG     ✓ Compiled in 102ms
+[03:47:12.006] Server  LOG     ✓ Compiled in 33ms
+[03:47:21.921] Server  LOG     ✓ Compiled in 26ms
+[03:47:23.976] Server  LOG     ✓ Compiled in 29ms
+[03:47:27.795] Server  LOG     ✓ Compiled in 27ms
+[03:48:15.923] Server  LOG     ✓ Compiled in 37ms
+[03:48:20.142] Server  LOG     ✓ Compiled in 34ms
+[03:48:25.185] Server  LOG     ✓ Compiled in 32ms
+[03:48:37.597] Server  LOG     ✓ Compiled in 27ms
+[03:50:20.285] Server  LOG     ✓ Compiled in 29ms
+[03:50:53.760] Server  LOG     ✓ Compiled in 131ms
+[03:51:03.892] Server  LOG     ✓ Compiled in 27ms
+[03:51:10.860] Server  LOG     ✓ Compiled in 29ms
+[03:51:16.650] Server  LOG     ✓ Compiled in 26ms
+[03:51:20.067] Server  LOG     ✓ Compiled in 28ms
+[03:51:21.145] Server  LOG     ✓ Compiled in 26ms
+[03:51:25.636] Server  LOG     ✓ Compiled in 26ms
+[03:51:28.718] Server  LOG     ✓ Compiled in 36ms
+[03:51:31.137] Server  LOG     ✓ Compiled in 26ms
+[03:51:38.029] Server  LOG     ✓ Compiled in 26ms
+[03:51:55.060] Server  LOG     ✓ Compiled in 28ms
+[03:52:03.978] Server  LOG     ✓ Compiled in 26ms
+[03:52:40.048] Server  LOG     ✓ Compiled in 27ms
+[03:53:03.577] Server  LOG     ✓ Compiled in 27ms
+[03:53:32.559] Server  LOG     ✓ Compiled in 32ms
+[03:54:29.954] Server  LOG     ✓ Compiled in 119ms
+[03:54:35.543] Server  LOG     ✓ Compiled in 117ms
+[03:54:42.558] Server  LOG     ✓ Compiled in 224ms
+[03:54:48.250] Server  LOG     ✓ Compiled in 123ms
+[03:54:57.132] Server  LOG     ✓ Compiled in 126ms
+[03:55:01.782] Server  LOG     ✓ Compiled in 49ms
+[03:55:42.976] Server  LOG     ✓ Compiled in 136ms
+[03:55:46.430] Server  LOG     ✓ Compiled in 52ms
+[03:55:52.704] Server  LOG     ✓ Compiled in 134ms
+[03:57:06.228] Server  LOG     ✓ Compiled in 116ms
+[03:57:11.977] Server  LOG     ✓ Compiled in 130ms
+[03:58:46.365] Server  LOG     ✓ Compiled in 32ms
+[03:59:03.723] Server  LOG     ✓ Compiled in 31ms
+[03:59:12.548] Server  LOG     ✓ Compiled in 31ms
+[03:59:31.705] Server  LOG     ✓ Compiled in 26ms
+[03:59:45.691] Server  LOG     ✓ Compiled in 26ms
+[03:59:52.800] Server  LOG     ✓ Compiled in 25ms
+[04:00:10.213] Server  LOG     ✓ Compiled in 26ms
+[04:00:36.110] Server  LOG     ✓ Compiled in 37ms
+[04:00:46.436] Server  LOG     ✓ Compiled in 28ms
+[04:00:54.660] Server  LOG     ✓ Compiled in 27ms
+[04:01:04.247] Server  LOG     ✓ Compiled in 29ms
+[04:01:13.972] Server  LOG     ✓ Compiled in 27ms
+[04:01:27.917] Server  LOG     ✓ Compiled in 27ms
+[04:02:31.805] Server  LOG     ✓ Compiled in 113ms
+[04:02:51.503] Server  LOG     ✓ Compiled in 149ms
+[04:03:04.364] Server  LOG     ✓ Compiled in 36ms
+[04:04:09.368] Server  LOG     ✓ Compiled in 34ms
+[04:04:14.483] Server  LOG     ✓ Compiled in 37ms
+[04:05:33.603] Server  LOG     ✓ Compiled in 28ms
+[04:05:50.261] Server  LOG     ✓ Compiled in 32ms
+[04:06:37.245] Server  LOG     ✓ Compiled in 33ms
+[04:06:47.806] Server  LOG     ✓ Compiled in 33ms
+[04:06:55.560] Server  LOG     ✓ Compiled in 36ms
+[04:07:01.369] Server  LOG     ✓ Compiled in 34ms
+[04:07:07.771] Server  LOG     ✓ Compiled in 27ms
+[04:09:43.541] Server  LOG     ✓ Compiled in 39ms
+[04:10:43.008] Server  LOG     ✓ Compiled in 28ms
+[04:10:55.471] Server  LOG     ✓ Compiled in 38ms
+[04:11:01.624] Server  LOG     ✓ Compiled in 28ms
+[04:12:03.568] Server  LOG     ✓ Compiled in 125ms
+[04:12:08.819] Server  LOG     ✓ Compiled in 118ms
+[04:12:16.860] Server  LOG     ✓ Compiled in 46ms
+[04:12:26.423] Server  LOG     ✓ Compiled in 152ms
+[04:12:32.126] Server  LOG     ✓ Compiled in 151ms
+[04:12:40.903] Server  LOG     ✓ Compiled in 123ms
+[04:13:54.818] Server  LOG     ✓ Compiled in 28ms
+[04:14:09.242] Server  LOG     ✓ Compiled in 136ms
+[04:14:17.056] Server  LOG     ✓ Compiled in 124ms
+[04:14:28.565] Server  LOG     ✓ Compiled in 57ms
+[04:14:35.866] Server  LOG     ✓ Compiled in 124ms
+[04:14:44.065] Server  LOG     ✓ Compiled in 124ms
+[04:14:48.087] Server  LOG     ✓ Compiled in 51ms
+[04:15:17.554] Server  LOG     ✓ Compiled in 30ms
+[04:15:56.001] Server  LOG     ✓ Compiled in 42ms
+[04:15:59.071] Server  LOG     ✓ Compiled in 42ms
+[04:16:08.535] Server  LOG     ✓ Compiled in 34ms
+[04:16:12.958] Server  LOG     ✓ Compiled in 33ms
+[04:16:23.451] Server  LOG     ✓ Compiled in 35ms
+[04:16:26.693] Server  LOG     ✓ Compiled in 28ms
+[04:16:40.351] Server  LOG     ✓ Compiled in 127ms
+[04:16:46.440] Server  LOG     ✓ Compiled in 987ms
+[04:17:32.459] Server  LOG     ✓ Compiled in 129ms
+[04:17:47.104] Server  LOG     ✓ Compiled in 37ms
+[04:18:01.082] Server  LOG     ✓ Compiled in 128ms
+[04:18:05.498] Server  LOG     ✓ Compiled in 128ms
+[04:19:48.734] Server  LOG     ✓ Compiled in 185ms
+[04:21:45.128] Server  LOG     ✓ Compiled in 150ms
+[04:22:25.030] Server  LOG     ✓ Compiled in 393ms
+[04:22:38.628] Server  LOG     ✓ Compiled in 146ms
+[04:23:14.725] Server  LOG     ✓ Compiled in 64ms
+[04:24:12.943] Server  LOG     ✓ Compiled in 25ms
+[04:24:19.888] Server  LOG     ✓ Compiled in 33ms
+[04:24:23.681] Server  LOG     ✓ Compiled in 167ms
+[04:24:47.292] Server  LOG     ✓ Compiled in 125ms
+[04:25:07.983] Server  LOG     ✓ Compiled in 124ms
+[04:25:29.512] Server  LOG     ✓ Compiled in 135ms
+[04:25:39.867] Server  LOG     ✓ Compiled in 123ms
+[04:25:48.131] Server  LOG     ✓ Compiled in 124ms
+[04:25:56.525] Server  LOG     ✓ Compiled in 49ms
+[04:26:22.388] Server  LOG     ✓ Compiled in 119ms
+[04:26:27.682] Server  LOG     ✓ Compiled in 114ms
+[04:26:29.987] Server  LOG     ✓ Compiled in 74ms
+[04:26:44.637] Server  LOG     ✓ Compiled in 122ms
+[04:27:00.097] Server  LOG     ✓ Compiled in 121ms
+[04:27:07.090] Server  LOG     ✓ Compiled in 51ms
+[04:27:11.450] Server  LOG     ✓ Compiled in 66ms
+[04:27:32.556] Server  LOG     ✓ Compiled in 25ms
+[04:27:46.505] Server  LOG     ✓ Compiled in 26ms
+[04:28:02.765] Server  LOG     ✓ Compiled in 26ms
+[04:28:09.163] Server  LOG     ✓ Compiled in 30ms
+[04:28:13.270] Server  LOG     ✓ Compiled in 25ms
+[04:28:21.232] Server  LOG     ✓ Compiled in 24ms
+[04:28:22.955] Server  LOG     ✓ Compiled in 30ms
+[04:28:30.838] Server  LOG     ✓ Compiled in 32ms
+[04:28:53.522] Server  LOG     ✓ Compiled in 33ms
+[04:29:15.499] Server  LOG     ✓ Compiled in 125ms
+[04:29:17.462] Server  LOG     ✓ Compiled in 59ms
+[04:29:18.381] Server  LOG     ✓ Compiled in 39ms
+[04:29:19.237] Server  LOG     ✓ Compiled in 30ms
+[04:29:34.616] Server  LOG     ✓ Compiled in 141ms
+[04:30:09.557] Server  LOG     ✓ Compiled in 122ms
+[04:30:24.326] Server  LOG     ✓ Compiled in 38ms
+[04:30:31.159] Server  LOG     ✓ Compiled in 77ms
+[04:31:01.110] Server  LOG     ✓ Compiled in 40ms
+[04:32:26.322] Server  LOG     ✓ Compiled in 120ms
+[04:32:34.714] Server  LOG     ✓ Compiled in 154ms
+[04:32:40.010] Server  LOG     ✓ Compiled in 129ms
+[04:32:46.427] Server  LOG     ✓ Compiled in 139ms
+[04:32:49.276] Server  LOG     ✓ Compiled in 55ms
+[04:32:53.723] Server  LOG     ✓ Compiled in 309ms
+[04:33:02.091] Server  LOG     ✓ Compiled in 59ms
+[04:33:04.352] Server  LOG     ✓ Compiled in 169ms
+[04:33:58.905] Server  LOG     ✓ Compiled in 97ms
+[04:34:05.899] Server  LOG     ✓ Compiled in 117ms
+[04:34:33.190] Server  LOG     ✓ Compiled in 177ms
+[04:35:14.769] Server  LOG     ✓ Compiled in 146ms
+[04:35:43.718] Server  LOG     ✓ Compiled in 148ms
+[04:36:22.960] Server  LOG     ✓ Compiled in 160ms
+[04:37:26.389] Server  LOG     ✓ Compiled in 150ms
+[04:37:43.599] Server  LOG     ✓ Compiled in 144ms
+[04:38:00.258] Server  LOG     ✓ Compiled in 161ms
+[04:38:19.261] Server  LOG     ✓ Compiled in 115ms
+[04:39:17.420] Server  LOG     ✓ Compiled in 31ms
+[04:39:19.043] Server  LOG     ✓ Compiled in 24ms
+[04:39:41.109] Server  LOG     ✓ Compiled in 27ms
+[04:39:46.525] Server  LOG     ✓ Compiled in 29ms
+[04:40:35.777] Server  LOG     ✓ Compiled in 125ms
+[04:42:37.906] Server  LOG     ✓ Compiled in 80ms
+[04:43:37.297] Server  LOG     ✓ Compiled in 170ms
+[04:43:49.306] Browser WARN    Image with src "/_next/static/media/avatar-jessica.00927701.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:44:36.230] Server  LOG     ✓ Compiled in 55ms
+[04:46:25.751] Server  LOG     ✓ Compiled in 25ms
+[04:46:52.806] Server  LOG     ✓ Compiled in 25ms
+[04:47:02.396] Server  LOG     ✓ Compiled in 23ms
+[04:50:04.179] Server  LOG     ✓ Compiled in 174ms
+[04:50:20.909] Server  LOG     ✓ Compiled in 189ms
+[04:50:41.179] Browser WARN    Image with src "/_next/static/media/avatar-jessica.00927701.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:51:37.561] Server  LOG     ✓ Compiled in 2.6s
+[04:51:42.396] Browser WARN    Image with src "/_next/static/media/avatar-jessica.00927701.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:52:16.506] Browser WARN    Image with src "/_next/static/media/avatar-jessica.00927701.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:53:03.224] Server  LOG     ✓ Compiled in 609ms
+[04:53:03.796] Browser WARN    Image with src "/_next/static/media/avatar-jessica.00927701.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:53:32.263] Server  ERROR   ⨯ ReferenceError: geistMono is not defined
+[04:53:32.297] Server  ERROR   ⨯ ReferenceError: geistMono is not defined
+[04:53:32.712] Browser ERROR   uncaughtError: ReferenceError: geistMono is not defined
+[04:53:38.564] Server  LOG     ✓ Compiled in 23ms
+[04:53:39.197] Browser WARN    Image with src "/_next/static/media/avatar-jessica.00927701.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:54:38.493] Server  LOG     ✓ Compiled in 70ms
+[04:55:01.613] Server  LOG     ✓ Compiled in 77ms
+[04:55:09.383] Server  LOG     ✓ Compiled in 25ms
+[04:55:55.139] Server  LOG     ✓ Compiled in 166ms
+[04:56:02.960] Server  LOG     ✓ Compiled in 25ms
+[04:57:24.655] Server  LOG     ✓ Compiled in 186ms
+[04:57:25.210] Browser WARN    Image with src "/_next/static/media/avatar-jessica.00927701.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[04:59:30.957] Server  LOG     ✓ Compiled in 30ms
+[04:59:47.554] Server  LOG     ✓ Compiled in 25ms
+[04:59:59.134] Server  LOG     ✓ Compiled in 25ms
+[05:00:30.677] Server  LOG     ✓ Compiled in 43ms
+[05:01:51.334] Server  LOG     ✓ Compiled in 70ms
+[05:03:06.914] Server  LOG     ✓ Compiled in 144ms
+[05:03:33.407] Server  LOG     ✓ Compiled in 112ms
+[05:03:49.456] Server  LOG     ✓ Compiled in 83ms
+[05:04:50.158] Server  LOG     ✓ Compiled in 181ms
+[05:04:57.510] Server  LOG     ✓ Compiled in 174ms
+[05:05:07.167] Server  LOG     ✓ Compiled in 38ms
+[05:05:34.341] Server  LOG     ✓ Compiled in 165ms
+[05:05:37.073] Server  LOG     ✓ Compiled in 53ms
+[05:06:10.214] Server  LOG     ✓ Compiled in 225ms
+[05:07:07.955] Server  LOG     ✓ Compiled in 2.6s
+[05:08:02.945] Server  LOG     ✓ Compiled in 171ms
+[05:09:48.836] Server  LOG     ✓ Compiled in 56ms
+[05:14:45.918] Server  LOG     ✓ Compiled in 46ms
+[05:14:57.721] Server  LOG     ✓ Compiled in 27ms
+[05:15:16.592] Server  LOG     ✓ Compiled in 26ms
+[05:15:22.175] Server  LOG     ✓ Compiled in 31ms
+[05:15:24.124] Server  LOG     ✓ Compiled in 27ms
+[05:16:04.028] Server  LOG     ✓ Compiled in 125ms
+[05:20:50.297] Server  LOG     ✓ Compiled in 86ms
+[05:31:45.045] Browser WARN    Image with src "/_next/static/media/avatar-jessica.00927701.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[05:31:58.520] Browser WARN    Image with src "/_next/static/media/avatar-jessica.00927701.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[05:32:17.605] Server  LOG     ✓ Compiled in 355ms

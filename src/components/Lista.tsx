@@ -14,7 +14,7 @@ const informs: Informs[] = [
   { id: 5, content: "Instagram", action: "https://instagram.com" }
 ];
 
-export function Lista(item: any, id: number) {
+export function Lista() {
   return (
     <div className="grid grid-cols-1 gap-4">
       {informs.map((item) => (

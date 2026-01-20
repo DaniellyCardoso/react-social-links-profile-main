@@ -6,7 +6,7 @@ R.c("server/chunks/ssr/1948b_@swc_helpers_cjs__interop_require_wildcard_cjs_762f
 R.c("server/chunks/ssr/[externals]__e8a2741f._.js")
 R.c("server/chunks/ssr/projects-curses_estudando react_react-social-links-profile-main_app_4f9600c1._.js")
 R.c("server/chunks/ssr/1948b_next_dist_client_components_builtin_global-error_488abfe2.js")
-R.c("server/chunks/ssr/[root-of-the-server]__d464cd38._.js")
+R.c("server/chunks/ssr/projects-curses_estudando react_react-social-links-profile-main_39d55faa._.js")
 R.c("server/chunks/ssr/1948b_next_dist_client_components_014f73e4._.js")
 R.c("server/chunks/ssr/1948b_next_dist_client_components_builtin_forbidden_5a7e11a0.js")
 R.c("server/chunks/ssr/1948b_next_dist_client_components_builtin_unauthorized_30b290da.js")
